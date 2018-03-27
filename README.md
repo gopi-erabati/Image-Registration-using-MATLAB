@@ -1,0 +1,4 @@
+# Image-Registration-using-MATLAB
+
+The aim of image registration is to find the transformation in the moving image to look similar to the Fixed Image. Image registration is very helpful in analyzing changes at different time intervals, information fusion from different modalities, minimize undesirable effects of patient movements etc. Image registration can be intensity based or feature based, rigid or non-rigid.
+Different components of image registration includes Interpolator, Metric , Optimizer and Transform. Interpolator is used for determining pixel intensity given neighboring pixels.  Optimizer is used to optimize the cost function i.e., to find the best metric value with respect to transform parameters.  Metric is used to measure the similarity between moving and fixed images to ensure the optimization. Transform is used to allow movement of moving image depending on certain parameters.
